@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผู้จัดทำ</title>
+    <style>
+     
+     header a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px; /* เพิ่มระยะห่างระหว่างลิงก์ */
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    header {
+        background-color: rgba(21, 23, 46, 0.8);
+        color: white;
+        text-align: right; /* เปลี่ยนให้ลิงค์อยู่ที่ขวา */
+        padding: 10px 20px; /* เพิ่ม padding ทางขวา */
+    }
+
+    header a {
+        color: white; /* เปลี่ยนสีลิงค์เป็นสีขาว */
+        font-size: 18px; /* เพิ่มขนาดฟอนต์ */
+        text-decoration: none; /* ลบเส้นใต้ */
+        font-weight: bold; /* ทำให้ตัวหนา */
+    }
+
+    header a:hover {
+        color: #ffcc00; /* เปลี่ยนสีเมื่อวางเมาส์ */
+    }
+
+    .content {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .team-member {
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .team-member h3 {
+        margin: 0;
+    }
+
+    .team-member p {
+        margin-top: 5px;
+    }
+</style>
+
+    </style>
+</head>
+<body>
+
+<!-- วิดีโอพื้นหลัง -->
+<video class="video-background" autoplay loop muted>
+    <source src="images/3129576-uhd_3840_2160_30fps (online-video-cutter.com).mp4" type="video/mp4">
+
+</video>
+
+<header>
+    <a href="index.html">Home</a>
+
+    <a href="news-detail.html">กิจกรรม</a>
+
+    <a href="peer.html">แผนการเรียน</a>
+
+    <a href="rfwfsf.html">ผู้จัดทำ</a>
+
+
+</header>
+
+
+<div class="content">
+    <div class="team-member">
+        <img src="team-member1.jpg" alt="สมาชิกทีม 1">
+        <h3>ชื่อสมาชิก 1</h3>
+        <p>ตำแหน่ง: ผู้พัฒนาเว็บไซต์</p>
+        <p>คำอธิบายเกี่ยวกับสมาชิกคนนี้</p>
+    </div>
+
+    <div class="team-member">
+        <img src="images/ชุดอาชีวะ5.png" alt="สมาชิกทีม 2">
+        <h3>นางสาวภูวทิฏฐ์ นฤนาท</h3>
+        <p>ตำแหน่ง:ครูที่ปรึกษา</p>
+        <p>คำอธิบายเกี่ยวกับสมาชิกคนนี้</p>
+    </div>
+
+    <div class="team-member">
+        <img src="team-member3.jpg" alt="สมาชิกทีม 3">
+        <h3>ชื่อสมาชิก 3</h3>
+        <p>ตำแหน่ง: นักเขียนเนื้อหา</p>
+        <p>คำอธิบายเกี่ยวกับสมาชิกคนนี้</p>
+    </div>
+</div>
+
+</body>
+</html>
